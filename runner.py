@@ -1,6 +1,8 @@
 import random
 from art import *
 from pygame import mixer
+
+#load music
 mixer.init()
 mixer.music.load("Moskau Ear Destruction.mp3")
 mixer.music.play()
@@ -16,26 +18,6 @@ i = 0
 while i in range(length):
     if list[i] > list[i+1]:
         Art=text2art("BEGONE " + str(list[i+1]) + "!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         print("""░░░░░░░░░░▀▀▀██████▄▄▄░░░░░░░░░░ 
 ░░░░░░░░░░░░░░░░░▀▀▀████▄░░░░░░░
